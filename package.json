@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yuriytuk/asj.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "yuriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuriytuk/asj/issues"
+  },
+  "homepage": "https://github.com/yuriytuk/asj#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "eslint": "^8.57.1"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
+  }
+}
